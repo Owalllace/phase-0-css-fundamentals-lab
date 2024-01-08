@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  text-align: center;
+  background-color: gainsboro;
+}
+
+#featured-property figure {
+  text-align: center;
+  font-size: smaller;
+}
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  background-color: red;
+  text-align: center;
+}
+
+#details h3 {
+  color: #333;
+}
+
+#details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#details a:hover {
+  text-decoration: underline;
+}
